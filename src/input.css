@@ -1,0 +1,70 @@
+/*
+En résumé, ces directives permettent d'inclure les styles de base, les composants et les utilitaires de Tailwind CSS dans votre projet, facilitant ainsi le développement d'interfaces utilisateur cohérentes et stylisées.*/
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+/*Les variable du root sont utiliser dans tailwind.config.js
+(Possible de directement l'ajouter dans le fichier tailwind.config.js)*/
+
+:root {
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(0, 0%, 95%);
+    --clr-neutral-300: hsl(0, 0%, 85%);
+    --clr-neutral-400: hsl(0, 0%, 75%);
+    --clr-neutral-500: hsl(0, 0%, 50%);
+    --clr-neutral-600: hsl(0, 0%, 40%);
+    --clr-neutral-700: hsl(0, 0%, 30%);
+    --clr-neutral-800: hsl(0, 0%, 20%);
+    --clr-neutral-900: hsl(0, 0%, 10%);
+
+    --clr-primary-100: hsl(220, 100%, 95%);
+    --clr-primary-200: hsl(220, 100%, 85%);
+    --clr-primary-300: hsl(220, 100%, 75%);
+    --clr-primary-400: hsl(220, 100%, 65%);
+    --clr-primary-500: hsl(220, 100%, 55%);
+    --clr-primary-600: hsl(220, 100%, 45%);
+    --clr-primary-700: hsl(220, 100%, 35%);
+    --clr-primary-800: hsl(220, 100%, 25%);
+    --clr-primary-900: hsl(220, 100%, 15%);
+
+    --clr-secondary-100: hsl(340, 100%, 95%);
+    --clr-secondary-200: hsl(340, 100%, 85%);
+    --clr-secondary-300: hsl(340, 100%, 75%);
+    --clr-secondary-400: hsl(340, 100%, 65%);
+    --clr-secondary-500: hsl(340, 100%, 55%);
+    --clr-secondary-600: hsl(340, 100%, 45%);
+    --clr-secondary-700: hsl(340, 100%, 35%);
+    --clr-secondary-800: hsl(340, 100%, 25%);
+    --clr-secondary-900: hsl(340, 100%, 15%);
+
+    --clr-success-100: hsl(120, 100%, 95%);
+    --clr-success-200: hsl(120, 100%, 85%);
+    --clr-success-300: hsl(120, 100%, 75%);
+    --clr-success-400: hsl(120, 100%, 65%);
+    --clr-success-500: hsl(120, 100%, 55%);
+    --clr-success-600: hsl(120, 100%, 45%);
+    --clr-success-700: hsl(120, 100%, 35%);
+    --clr-success-800: hsl(120, 100%, 25%);
+    --clr-success-900: hsl(120, 100%, 15%);
+
+    --clr-warning-100: hsl(45, 100%, 95%);
+    --clr-warning-200: hsl(45, 100%, 85%);
+    --clr-warning-300: hsl(45, 100%, 75%);
+    --clr-warning-400: hsl(45, 100%, 65%);
+    --clr-warning-500: hsl(45, 100%, 55%);
+    --clr-warning-600: hsl(45, 100%, 45%);
+    --clr-warning-700: hsl(45, 100%, 35%);
+    --clr-warning-800: hsl(45, 100%, 25%);
+    --clr-warning-900: hsl(45, 100%, 15%);
+
+    --clr-danger-100: hsl(0, 100%, 95%);
+    --clr-danger-200: hsl(0, 100%, 85%);
+    --clr-danger-300: hsl(0, 100%, 75%);
+    --clr-danger-400: hsl(0, 100%, 65%);
+    --clr-danger-500: hsl(0, 100%, 55%);
+    --clr-danger-600: hsl(0, 100%, 45%);
+    --clr-danger-700: hsl(0, 100%, 35%);
+    --clr-danger-800: hsl(0, 100%, 25%);
+    --clr-danger-900: hsl(0, 100%, 15%);
+}
